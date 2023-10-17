@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    background-color: #e3e2e2;
+}
+.column1{
+    flex: 40%;
+    height: 300px;
+   
+}
+.column1 img{
+    padding: 50px 0 0 30px;
+}
+.column1 p{
+    padding-left: 30px;
+}
+.column2{
+    flex: 20%;
+    height: 300px;
+}
+.column2 h3{
+    padding: 50px 0 0 30px;
+}
+.column2 p{
+    padding-left: 30px;
+}
+.column3{
+    flex: 20%;
+    height: 300px;
+}
+.column3 h3{
+    padding: 50px 0 0 30px;
+}
+.column3 p{
+    padding-left: 30px;
+}
+.column4{
+    flex: 20%;
+    height: 300px;
+}
+.column4 h3{
+    padding: 50px 0 0 30px;
+}
+.column4 p{
+    padding-left: 30px;
+}

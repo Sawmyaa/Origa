@@ -35,6 +35,7 @@ const Footer = () => {
                 <p>Andheri East, Mumbai</p>
             </div>
         </div>
+        <div className="line"></div>
     </div>
   )
 }

@@ -19,7 +19,7 @@ function Navbar() {
         <img src={avatar} alt="" />
       </div>
       <div className='search'>
-        <img src={search} alt="" />
+        {/* <img src={search} alt="" /> */}
         <input type="text" placeholder='Search' />
       </div>
       <div className='search-tabs'>

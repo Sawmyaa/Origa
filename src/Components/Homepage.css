@@ -22,6 +22,25 @@ html, body{
     background-color: rgba(217, 213, 221, 0.338);
     /* opacity: 25%; */
 }
+.mainarrow{
+    display: flex;
+    height: 40vh;
+    width: 30%;
+}
+#leftmainarrow{
+    position: relative;
+    display: flex;
+    height: 16%;
+    margin-top: 220%;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.mainarrow>img{
+    position: relative;
+    margin: 100px 0px 50px 0px;
+    cursor: pointer;
+}
 .leftbox>h1{
     position: absolute;
     display: flex;

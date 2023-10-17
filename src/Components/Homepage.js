@@ -60,6 +60,10 @@ function Homepage (){
       <div className='leftbox'>
         <h1>One Stop Solution <br/> for all your <br/> Machine needs</h1>
         <p>From Machine to tools to finance everything<br/>you need in one place</p>
+        <div className="mainarrow">
+          <img id='leftmainarrow'src={arrowLeft} alt="" />
+          {/* <img id='rightmainarrow'src={arrowRight} alt="" /> */}
+        </div>
       </div>
       <div className='rightbox'>
         <h3>CTC Machine</h3>

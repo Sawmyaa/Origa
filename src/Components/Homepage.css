@@ -1,13 +1,22 @@
-
+/* 
 html, body{
     height: 100%;
     width: 100%;
+} */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+html,body{
+    width:100%;
+    height: 100%;
+} */
 .main{
     position: relative;
 
 }
-
 .mainbox{
     position: relative;
     display: flex;
@@ -96,6 +105,11 @@ html, body{
     justify-content: center;
     margin-left: 40%;
     margin-top: 8%;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    
 }
 
 .page1{
@@ -234,7 +248,7 @@ html, body{
 }
 #pg21 a:hover { 
     padding-bottom: 12px;
-    border-bottom: 3.5px solid #5c9b18;
+    border-bottom: 3.5px solid #9b9d51;
     cursor: pointer;
     font-weight: 700;
 }
@@ -264,7 +278,7 @@ html, body{
     color: #fff;
     font-size: 15px;
     font-weight: 500;
-    background-color: purple;
+    background-color:#72509D;
     border: none;
 }
 
@@ -335,13 +349,13 @@ html, body{
   }
   
   .grid-itemL1:hover {
-    background-color: rgb(156, 207, 28);
+    background-color: #9b9d51;
     width: 105%;
     color: #fff;
     position: relative;
   }
   .grid-itemL2:hover {
-    background-color: rgb(156, 207, 28);
+    background-color: #9b9d51;
     width: 105%;
     color: #fff;
     position: relative;
@@ -349,7 +363,7 @@ html, body{
   
   /* Hover effect for grid-itemR1 and grid-itemR2 */
 .grid-itemR1:hover {
-    background-color: rgb(156, 207, 28);
+    background-color:#9b9d51;
     width: 110%;
     margin-left: -2%;
     color: #fff;
@@ -358,7 +372,7 @@ html, body{
   }
   
 .grid-itemR2:hover {
-    background-color: rgb(156, 207, 28);
+    background-color:#9b9d51;
     width: 110%;
     margin-left: -2%;
     color: #fff;
@@ -420,23 +434,23 @@ html, body{
     background-color: #fff;
   }
   .page41left:hover {
-    background-color:  rgb(156, 207, 28);
+    background-color: #9b9d51;
     width: 60%;
     color: #fff;
   }
   .page42left:hover {
-    background-color: rgb(156, 207, 28);
+    background-color: #9b9d51;
     width: 60%;
     color: #fff;
   }
   .page41right:hover {
-    background-color: rgb(156, 207, 28);
+    background-color: #9b9d51;
     width: 60%;
     margin-left: -1%;
     color: #fff;
   }
   .page42right:hover {
-    background-color: rgb(156, 207, 28);
+    background-color:#9b9d51;
     width: 60%;
     margin-left: -1%;
     color: #fff;
@@ -483,7 +497,7 @@ html, body{
     margin-left: 100px;
     height: 55vh;
     width: 50%;
-    background-color:  rgb(141, 190, 17);
+    background-color: #9b9d51;
     border-radius: 10px;
     box-shadow: 5px 5px 30px rgb(132, 176, 21)
 }
@@ -503,7 +517,7 @@ html, body{
     padding: 0px 50px;
     height: 50px;
     width: auto;
-    background-color: purple;
+    background-color:#72509D;
     border-radius: 10px;
     border: none;
     font-size: 15px;
@@ -579,7 +593,7 @@ html, body{
     font-weight: 600;
     padding: 12px 50px; 
     border-radius: 10px;
-    background-color: purple;
+    background-color: #72509D;
     border: none;  
     color: #fff; 
     margin-left: 30px;
@@ -604,7 +618,7 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color:#80c018; 
+    background-color:#9b9d51; 
     margin-top: 5px; 
   }
 .page7card2{
@@ -626,7 +640,7 @@ html, body{
     font-weight: 600;
     padding: 12px 50px; 
     border-radius: 10px;
-    background-color: purple;
+    background-color:#72509D;
     border: none;  
     color: #fff; 
     margin-left: 30px;
@@ -651,7 +665,7 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color: #80c018; 
+    background-color: #9b9d51; 
     margin-top: 5px; 
   }
 .page7card3{
@@ -673,7 +687,7 @@ html, body{
     font-weight: 600;
     padding: 12px 50px; 
     border-radius: 10px;
-    background-color: purple;
+    background-color: #72509D;
     border: none;  
     color: #fff; 
     margin-left: 30px;
@@ -698,13 +712,13 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color: #80c018; 
+    background-color:#9b9d51; 
     margin-top: 5px; 
   }
 
 /* page7cards hover */
 .page7card1:hover{
-    background-color: #91ca29;
+    background-color:#9b9d51;
     color:#fff;
     border-radius: 10px;
     box-shadow: 5px 5px 30px rgb(132, 176, 21)
@@ -713,7 +727,7 @@ html, body{
     color: #fff; 
   }
 .page7card2:hover{
-    background-color: #91ca29;
+    background-color:#9b9d51;
     color:#fff;
     border-radius: 10px;
     box-shadow: 5px 5px 30px rgb(132, 176, 21)
@@ -722,7 +736,7 @@ html, body{
     color: #fff; 
   }
 .page7card3:hover{
-    background-color: #91ca29;
+    background-color:#9b9d51;
     border-radius: 10px;
     box-shadow: 5px 5px 30px rgb(132, 176, 21)
 }
@@ -801,9 +815,8 @@ html, body{
     position: absolute;
     display: flex;
     flex-direction: row;
-    /* margin-top: 60.5%; */
     height: 40vh;
-    width: 100%;
+    width: 80%;
 }
 .page101{
     position: relative;
@@ -838,8 +851,8 @@ html, body{
     position: absolute;
     display: flex;
     flex-direction: row;
-    height: 40vh;
-    width: 100%;
+    /* height: 40vh;
+    width: 100%; */
     margin-top: 20%;
     gap: 80px;
 }
@@ -864,7 +877,7 @@ html, body{
     padding: 10px 35px;
     border-radius: 10px;
     border: none;
-    background-color: purple;
+    background-color:#72509D;
     margin-left: 30px;
     color: #fff;
     font-weight: 700;
@@ -875,7 +888,7 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color: #80c018; 
+    background-color: #9b9d51; 
     margin-top: 5px; 
   }
 .page11card2 h3::after {
@@ -883,7 +896,7 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color: #80c018; 
+    background-color:#9b9d51; 
     margin-top: 5px; 
   }
 .page11card3 h3::after {
@@ -891,7 +904,7 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color: #80c018; 
+    background-color: #9b9d51; 
     margin-top: 5px; 
   }
 .page11card4 h3::after {
@@ -899,31 +912,47 @@ html, body{
     display: block;
     width: 18%; 
     height: 3px;
-    background-color: #80c018; 
+    background-color:#9b9d51; 
     margin-top: 5px; 
   }
 
   /* page11cards hover */
-/* .page11card1:hover{
-    background-color: #6d9b18;
+.page11card1:hover{
+    background-color:#9b9d51;
     color:#fff;
-    box-shadow: 5px 5px 30px rgb(132, 176, 21)
+    box-shadow: 5px 5px 30px rgb(132, 176, 21);
+    padding: 10px 10px;
 }
 .page11card2:hover{
-    background-color: #6d9b18;
+    background-color:#9b9d51;
     color:#fff;
-    box-shadow: 5px 5px 30px rgb(132, 176, 21)
+    box-shadow: 5px 5px 30px rgb(132, 176, 21);
+    padding: 10px 10px;
 }
 .page11card3:hover{
-    background-color: #6d9b18;
+    background-color: #9b9d51;
     color:#fff;
-    box-shadow: 5px 5px 30px rgb(132, 176, 21)
+    box-shadow: 5px 5px 30px rgb(132, 176, 21);
+    padding: 10px 10px;
 }
 .page11card4:hover{
-    background-color: #6d9b18;
+    background-color: #9b9d51;
     color:#fff;
-    box-shadow: 5px 5px 30px rgb(132, 176, 21)
-} */
+    box-shadow: 5px 5px 30px rgb(132, 176, 21);
+    padding: 10px 10px;
+}
+.page11card1:hover h3::after {
+    background-color: #fff; 
+  }
+  .page11card2:hover h3::after {
+    background-color: #fff; 
+  }
+  .page11card3:hover h3::after {
+    background-color: #fff; 
+  }
+  .page11card4:hover h3::after {
+    background-color: #fff; 
+  }
 
 
 .page12{
@@ -1054,7 +1083,7 @@ html, body{
 }
 .page15right button{
     padding: 15px 58px;
-    background-color: purple;
+    background-color: #72509D;
     border: none;
     border-radius: 10px;
     color: #fff;

@@ -54,7 +54,7 @@ function Homepage (){
     }
   };
   return (
-    <div className='main'>
+    <div style={{overflow:"hidden"}} className='main'>
       <div className='mainbox'>
       <img src={img1} alt="" />
       <div className='leftbox'>
